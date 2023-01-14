@@ -22,9 +22,12 @@ body {
 
     letter-spacing: 0.02em;}
 
+ul {list-style: none;}
+
 .link {
     text-decoration: none;
-    color: currentColor;}
+    color: currentColor;
+    }
 
     /* header */
 .logo {
@@ -55,7 +58,8 @@ body {
 }
 
 .address-item {
-    color:var(--text-color);}
+    color:var(--text-color);
+    font-style: normal;}
     
 .address-item:hover,
 .address-item:focus {
@@ -75,6 +79,8 @@ body {
 .btn {
     font-weight: 600;
     line-height: calc(19 / 16);
+    font-family: inherit;
+    font-size: inherit;
     
     align-items: center;
     letter-spacing: 0.04em;
@@ -126,6 +132,8 @@ body {
     color: var(--brand-color);
     background-color:#F4F4FD;
     cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
 }
 
 .btn-project:hover,
